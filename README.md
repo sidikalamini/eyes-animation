@@ -93,5 +93,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Inspired by various robot character designs in animation and robotics
+- Inspired by [FluxGarage's RoboEyes](https://github.com/FluxGarage/RoboEyes) Arduino library
+- Created with assistance from AI models (Claude & ChatGPT)
 - Special thanks to the Pygame community

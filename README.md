@@ -6,6 +6,12 @@ A sophisticated and customizable animation framework for creating expressive rob
 
 ![Demo Animation](docs/images/eyes_demo.gif)
 
+## Demo Video
+
+Watch a demonstration of the Eyes Animation system in action:
+
+[![Eyes Animation Demo](https://img.youtube.com/vi/gdqVSGmf2uk/0.jpg)](https://youtu.be/gdqVSGmf2uk)
+
 ## Features
 
 - Smooth, natural eye animations with realistic blinking
@@ -14,12 +20,14 @@ A sophisticated and customizable animation framework for creating expressive rob
 - Customizable visual effects (glow, border thickness, color schemes)
 - Comprehensive logging system for animation states
 - Interactive demo with full keyboard controls
+- Video recording functionality to capture animations
 
 ## Requirements
 
 - Python 3.7+
 - Pygame
 - Loguru
+- OpenCV (for recording functionality)
 
 ## Installation
 
@@ -38,6 +46,12 @@ Run the interactive demo:
 
 ```bash
 python -m examples.interactive_demo
+```
+
+For the version with recording capabilities:
+
+```bash
+python -m examples.interactive_demo_record
 ```
 
 Basic usage in your own code:
@@ -86,6 +100,10 @@ while running:
 | L          | Toggle logging               |
 | H          | Show help                    |
 | Q          | Quit                         |
+
+Recording demo also includes:
+- Record button: Start recording animation
+- Stop button: Stop recording and save MP4 file
 
 ## License
 
